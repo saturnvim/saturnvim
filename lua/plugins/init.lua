@@ -1,6 +1,6 @@
 local lazy = require("lazy")
 
-local config_directories = {"lsp", "navigation", "theme", "other"} 
+local config_directories = {"lsp", "navigation", "theme", "helpers", "other"}
 
 local function getConfigFiles()
   local files = {}
@@ -28,6 +28,6 @@ for _, config_name in ipairs(config_files) do
   table.insert(lazy_configurations, config)
 end
 
-table.insert(lazy_configurations, 1, require("plugins.other"))
+table.insert(lazy_configurations, 1, require("plugins.core"))
 
 lazy.setup(lazy_configurations)

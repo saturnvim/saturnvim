@@ -12,3 +12,7 @@ vim.opt.cursorlineopt = "number"
 
 vim.o.timeout         = true
 vim.o.timeoutlen      = 500
+
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
