@@ -1,13 +1,18 @@
 return {
   'nvim-tree/nvim-tree.lua',
   dependencies = { 'nvim-tree/nvim-web-devicons' },
-  config = function()
+  init = function()
     require("nvim-tree").setup({
       filters = {
         dotfiles = false,
       },
-      renderer = { 
+      renderer = {
         root_folder_label = false,
+        highlight_git = false,
+        highlight_opened_files = "none",
+        indent_markers = {
+          enable = false,
+        },
         icons = {
            show = {
             file = true,
@@ -21,5 +26,12 @@ return {
         }
       }
     })
-  end
+  end,
+  keys = {
+    {
+      "<leader>e",
+      "<cmd>NvimTreeToggle<CR>",
+      desc = "Toggle file tree"
+    }
+  },
 }
