@@ -1,6 +1,6 @@
 return {
-  'nvim-tree/nvim-tree.lua',
-  dependencies = { 'nvim-tree/nvim-web-devicons' },
+  "nvim-tree/nvim-tree.lua",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
   init = function()
     require("nvim-tree").setup({
       filters = {
@@ -14,7 +14,7 @@ return {
           enable = false,
         },
         icons = {
-           show = {
+          show = {
             file = true,
             folder = true,
             folder_arrow = true,
@@ -23,15 +23,28 @@ return {
             diagnostics = false,
             bookmarks = false,
           },
-        }
-      }
+
+          glyphs = {
+            folder = {
+              default = "󰉋",
+              empty = "󰉋",
+              empty_open = "󰝰",
+              open = "󰝰",
+              symlink = "󰾶",
+              symlink_open = "󰝰",
+              arrow_open = "",
+              arrow_closed = "",
+            },
+          },
+        },
+      },
     })
   end,
   keys = {
     {
       "<leader>e",
       "<cmd>NvimTreeToggle<CR>",
-      desc = "Toggle file tree"
-    }
+      desc = "Toggle file tree",
+    },
   },
 }
