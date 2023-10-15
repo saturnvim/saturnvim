@@ -16,20 +16,23 @@ return {
           vertical = {
             mirror = false,
           },
-          width = 0.87,
-          height = 0.80,
+          width = 0.60,
+          height = 0.30,
         },
         file_ignore_patterns = { "node_modules" },
       },
       pickers = {
         find_files = {
           previewer = false,
+          theme = "dropdown",
         },
         file_browser = {
           previewer = false,
+          theme = "dropdown",
         },
         buffers = {
           previewer = false,
+          theme = "dropdown",
         },
       },
     })
