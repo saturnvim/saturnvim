@@ -18,7 +18,7 @@ return {
   end,
   keys = {
     {
-      "<leader>ra",
+      "<leader>as",
       "<cmd>AerialToggle<CR>",
       desc = "Open code outline window",
     },
