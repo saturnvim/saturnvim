@@ -20,4 +20,3 @@ vim.opt.rtp:prepend(lazypath)
 
 require("core")
 require("plugins")
-require("git")
