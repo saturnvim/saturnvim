@@ -20,3 +20,4 @@ vim.opt.expandtab = true
 vim.opt.laststatus = 3
 
 require("core.mappings")
+require("core.aliases")
