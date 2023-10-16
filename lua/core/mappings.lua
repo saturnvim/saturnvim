@@ -9,3 +9,4 @@ vim.api.nvim_set_keymap("n", "<leader>bd", [[<cmd>bd<CR>]], { noremap = true, si
 
 vim.api.nvim_set_keymap("n", "<C-s>", [[<cmd>split<CR>]], { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-v>", [[<cmd>vsplit<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-q>", [[<cmd>close<CR>]], { noremap = true, silent = true })
