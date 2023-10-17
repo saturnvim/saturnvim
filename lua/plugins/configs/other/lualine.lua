@@ -11,7 +11,9 @@ return {
         lualine_a = { "mode" },
         lualine_b = {},
         lualine_c = {
-          "filename",
+          {
+            "filename",
+          },
           {
             "branch",
             icon = "󰘬",
