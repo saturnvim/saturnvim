@@ -48,20 +48,6 @@ return {
             height = 0.40,
           },
         },
-        git_status = {
-          layout_config = {
-            horizontal = {
-              prompt_position = "top",
-              preview_width = 0.55,
-              results_width = 0.8,
-            },
-            vertical = {
-              mirror = false,
-            },
-            width = 0.75,
-            height = 0.40,
-          },
-        },
         git_branches = {
           layout_config = {
             horizontal = {
