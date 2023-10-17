@@ -1,3 +1,5 @@
+![img](https://raw.githubusercontent.com/pepevim/images/main/image.png)
+
 # Pepevim
 Pepevim is a configuration for neovim, it provides a lot of feature, like: Format on save, Language server and more!
 
