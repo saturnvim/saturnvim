@@ -18,10 +18,17 @@ return {
             "branch",
             icon = "󰘬",
           },
-          "diff",
-          "diagnostics",
+          {
+            "diff",
+            symbols = { added = " ", modified = " ", removed = " " },
+          },
         },
-        lualine_x = { "filetype" },
+        lualine_x = {
+          {
+            "diagnostics",
+            symbols = { error = " ", warn = " ", info = " ", hint = " " },
+          },
+        },
         lualine_y = {},
         lualine_z = {
           "progress",
