@@ -1,3 +1,5 @@
+local icons = require("icons")
+
 return {
   "nvim-telescope/telescope.nvim",
   cmd = "Telescope",
@@ -6,7 +8,7 @@ return {
   config = function()
     require("telescope").setup({
       defaults = {
-        prompt_prefix = "   ",
+        prompt_prefix = " " .. icons["search"] .. " ",
         layout_config = {
           horizontal = {
             prompt_position = "top",

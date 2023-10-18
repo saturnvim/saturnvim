@@ -13,7 +13,7 @@ return {
 
     dashboard.section.header.val = {
       [[                                                                ]],
-      [[⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⡤⢤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
+      [[⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⡤⢤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
       [[⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⠞⠉⠁⠀⠀⠀⠀⠀⠀⠀⠉⠙⠲⢤⡀⠀⠀⣠⡴⠒⠋⠉⠉⠉⠉⠉⠛⠲⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
       [[⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢶⡋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
       [[⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
@@ -44,10 +44,10 @@ return {
 
     dashboard.section.buttons.val = {
       dashboard.button("f", "  Looking for a file?", ":Telescope find_files <CR>"),
-      dashboard.button("e", "  Do you need a new file?", ":ene <BAR> startinsert <CR>"),
-      dashboard.button("r", "󰁯 Looking for files already edited?", ":Telescope oldfiles <CR>"),
-      dashboard.button("c", "  Is something wrong?", ":e ~/.config/nvim/"),
-      dashboard.button("q", "󰗼  Help I'm stuck!", ":qa<CR>"),
+      dashboard.button("e", "  Do you need a new file?", ":ene <BAR> startinsert <CR>"),
+      dashboard.button("r", " Looking for files already edited?", ":Telescope oldfiles <CR>"),
+      dashboard.button("c", "  Is something wrong?", ":e ~/.config/nvim/<CR>"),
+      dashboard.button("q", "  Help I'm stuck!", ":qa<CR>"),
     }
 
     dashboard.section.footer.val = "Talk is cheap. Show me the code"

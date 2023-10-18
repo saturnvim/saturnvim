@@ -1,3 +1,5 @@
+local icons = require("icons")
+
 return {
   "nvim-tree/nvim-tree.lua",
   dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -26,14 +28,14 @@ return {
 
           glyphs = {
             folder = {
-              default = "󰉋",
-              empty = "󰉋",
-              empty_open = "󰝰",
-              open = "󰝰",
-              symlink = "󰾶",
-              symlink_open = "󰝰",
-              arrow_open = "",
-              arrow_closed = "",
+              default = icons["dir"],
+              empty = icons["dir_empty"],
+              empty_open = icons["dir_empty_open"],
+              open = icons["dir_open"],
+              symlink = icons["dir_symlink"],
+              symlink_open = icons["dir_symlink_open"],
+              arrow_open = icons["arrow_open"],
+              arrow_closed = icons["arrow_closed"],
             },
           },
         },

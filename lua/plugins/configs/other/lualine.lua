@@ -1,3 +1,5 @@
+local icons = require("icons")
+
 return {
   "nvim-lualine/lualine.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -8,7 +10,11 @@ return {
         section_separators = { left = "", right = "" },
       },
       sections = {
-        lualine_a = { "mode" },
+        lualine_a = {
+          {
+            "mode",
+          },
+        },
         lualine_b = {},
         lualine_c = {
           {
@@ -16,17 +22,22 @@ return {
           },
           {
             "branch",
-            icon = "󰘬",
+            icon = icons["git_branch"],
           },
           {
             "diff",
-            symbols = { added = " ", modified = " ", removed = " " },
+            symbols = { added = icons["git_add"], modified = icons["git_edit"], removed = icons["git_del"] },
           },
         },
         lualine_x = {
           {
             "diagnostics",
-            symbols = { error = " ", warn = " ", info = " ", hint = " " },
+            symbols = {
+              error = icons["error"],
+              warn = icons["warn"],
+              info = icons["warn"],
+              hint = icons["hint"],
+            },
           },
         },
         lualine_y = {},
