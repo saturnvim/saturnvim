@@ -22,6 +22,7 @@ return {
           height = 0.30,
         },
         file_ignore_patterns = { "node_modules" },
+        dasd,
       },
       pickers = {
         find_files = {
