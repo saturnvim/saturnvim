@@ -2,13 +2,19 @@ return {
   "akinsho/bufferline.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
-    require("bufferline").setup({
+    local bufferline = require("bufferline")
+
+    bufferline.setup({
       options = {
         offsets = {
           {
             filetype = "NvimTree",
-            separator = true,
+            separator = false,
           },
+        },
+        style_preset = {
+          bufferline.style_preset.no_italic,
+          bufferline.style_preset.default,
         },
       },
     })
