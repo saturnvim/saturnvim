@@ -1,12 +1,11 @@
 local lazy = require("lazy")
 
-local config_directories = {"lsp", "navigation", "theme", "helpers", "other"}
+local config_directories = { "lsp", "navigation", "theme", "helpers", "debug", "other" }
 
 local function getConfigFiles()
   local files = {}
   for _, directory in ipairs(config_directories) do
-    local script_path = vim.fn.stdpath("config") ..
-        "/lua/plugins/configs/" .. directory
+    local script_path = vim.fn.stdpath("config") .. "/lua/plugins/configs/" .. directory
     local dir_contents = vim.fn.readdir(script_path)
     for _, item in ipairs(dir_contents) do
       if item:match("%.lua$") then
