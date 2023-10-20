@@ -16,4 +16,7 @@ return {
   ["dir_symlink_open"] = "󰝰",
   ["arrow_open"] = "",
   ["arrow_closed"] = "",
+  ["check"] = "",
+  ["x"] = "",
+  ["dot"] = "",
 }
