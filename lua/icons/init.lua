@@ -19,4 +19,7 @@ return {
   ["check"] = "",
   ["x"] = "",
   ["dot"] = "",
+  ["file"] = "",
+  ["file_symlink"] = "",
+  ["mark"] = "󰛹",
 }

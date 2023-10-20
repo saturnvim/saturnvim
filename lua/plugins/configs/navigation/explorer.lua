@@ -27,6 +27,10 @@ return {
           },
 
           glyphs = {
+            default = icons["file"],
+            symlink = icons["file_symlink"],
+            bookmark = icons["mark"],
+            modified = icons["dot"],
             folder = {
               default = icons["dir"],
               empty = icons["dir_empty"],
