@@ -25,7 +25,6 @@ return {
             diagnostics = false,
             bookmarks = false,
           },
-
           glyphs = {
             default = icons["file"],
             symlink = icons["file_symlink"],

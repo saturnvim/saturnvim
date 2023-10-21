@@ -13,7 +13,6 @@ return {
           },
         },
         style_preset = {
-          bufferline.style_preset.no_italic,
           bufferline.style_preset.default,
         },
       },
