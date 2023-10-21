@@ -48,6 +48,41 @@ return {
           color = "#3f95c6",
           name = "Stackblitz",
         },
+        ["vercel.json"] = {
+          icon = "󰔶",
+          color = "#ffffff",
+          name = "Vercel",
+        },
+        ["yarn.lock"] = {
+          icon = "",
+          color = "#2c8ebb",
+          name = "Yarn",
+        },
+        [".yarnrc.yml"] = {
+          icon = "",
+          color = "#2c8ebb",
+          name = "Yarn",
+        },
+        ["tailwind.config.cjs"] = {
+          icon = "󱏿",
+          color = "#0677a9",
+          name = "Tailwindcss",
+        },
+        ["tailwind.config.mjs"] = {
+          icon = "󱏿",
+          color = "#0677a9",
+          name = "Tailwindcss",
+        },
+        ["tailwind.config.js"] = {
+          icon = "󱏿",
+          color = "#0677a9",
+          name = "Tailwindcss",
+        },
+        ["tailwind.config.ts"] = {
+          icon = "󱏿",
+          color = "#0ea5e9",
+          name = "Tailwindcss",
+        },
       },
       override_by_extension = {
         ["ts"] = {
