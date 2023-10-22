@@ -1,14 +1,14 @@
-![img](https://raw.githubusercontent.com/pepevim/images/main/image.png)
+![img](https://raw.githubusercontent.com/saturnvim/images/main/image.png)
 
-# Pepevim
-Pepevim is a configuration for neovim, it provides a lot of feature, like: Format on save, Language server and more!
-Currently pepevim is in beta, please help us try pepevim to version sooner rather than later, see [here](https://github.com/pepevim/pepevim/issues/1)!
+# Saturnvim
+Saturnvim is a configuration for neovim, it provides a lot of feature, like: Format on save, Language server and more!
+Currently saturnvim is in beta, please help us try saturnvim to version sooner rather than later, see [here](https://github.com/saturnvim/saturnvim/issues/1)!
 
 ### Installation
 Run this command!
 
 ```bash
-git clone https://github.com/pepevim/pepevim ~/.config/nvim && nvim
+git clone https://github.com/saturnvim/saturnvim ~/.config/nvim && nvim
 ```
 
 ### Features
@@ -22,5 +22,5 @@ Feel free to open an issues to report a bug you have encountered, please be clea
 
 ### Frequently asked questions
 
-#### Pepevim is ready to be used?
-Pepevim already has many features to be used but you may still experience some bugs or missing features!
+#### Saturnvim is ready to be used?
+Saturnvim already has many features to be used but you may still experience some bugs or missing features!
