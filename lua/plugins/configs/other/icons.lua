@@ -83,6 +83,16 @@ return {
           color = "#0ea5e9",
           name = "Tailwindcss",
         },
+        ["Cargo.toml"] = {
+          icon = "",
+          color = "#e4a936",
+          name = "Cargo"
+        },
+        ["Cargo.lock"] = {
+          icon = "",
+          color = "#e4a936",
+          name = "Cargo"
+        },
       },
       override_by_extension = {
         ["ts"] = {
@@ -125,6 +135,16 @@ return {
           color = "#8e4191",
           name = "png",
         },
+        ["v"] = {
+          icon = "",
+          color = "#4a607e",
+          name = "v"
+        },
+        ["exe"] = {
+          icon = "",
+          color = "#0060aa",
+          name = "exe"
+        }
       },
     })
   end,
