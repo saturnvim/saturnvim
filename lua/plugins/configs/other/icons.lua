@@ -93,6 +93,11 @@ return {
           color = "#e4a936",
           name = "Cargo"
         },
+        ["robots.txt"] = {
+          icon = "󰚩",
+          color = "#d63a2f",
+          name = "robots.txt"
+        },
       },
       override_by_extension = {
         ["ts"] = {
