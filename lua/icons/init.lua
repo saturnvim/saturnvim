@@ -17,6 +17,7 @@ return {
   ["arrow_open"] = "",
   ["arrow_closed"] = "",
   ["check"] = "",
+  ["skip"] = "",
   ["x"] = "",
   ["dot"] = "",
   ["file"] = "",

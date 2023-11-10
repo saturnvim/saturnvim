@@ -22,12 +22,12 @@ return {
           height = 0.30,
         },
         file_ignore_patterns = { "node_modules" },
-        dasd,
       },
       pickers = {
         find_files = {
           previewer = false,
           theme = "dropdown",
+          no_ignore = true,
         },
         file_browser = {
           previewer = false,
