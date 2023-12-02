@@ -6,7 +6,12 @@ return {
   init = function()
     require("nvim-tree").setup({
       filters = {
+        git_ignored = false,
         dotfiles = false,
+        git_clean = false,
+        no_buffer = false,
+        custom = {},
+        exclude = {},
       },
       renderer = {
         root_folder_label = false,
