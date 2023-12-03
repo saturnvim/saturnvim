@@ -5,4 +5,6 @@ return {
 
     vim.cmd("Gitsigns toggle_current_line_blame")
   end,
+}, {
+  "tpope/vim-fugitive",
 }
