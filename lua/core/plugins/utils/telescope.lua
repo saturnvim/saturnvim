@@ -19,7 +19,7 @@ return {
             mirror = false,
           },
           width = 0.60,
-          height = 0.30,
+          height = 0.40,
         },
         file_ignore_patterns = { "node_modules" },
       },
@@ -37,51 +37,11 @@ return {
           previewer = false,
           theme = "dropdown",
         },
-        git_status = {
-          layout_config = {
-            horizontal = {
-              prompt_position = "top",
-              preview_width = 0.55,
-              results_width = 0.8,
-            },
-            vertical = {
-              mirror = false,
-            },
-            width = 0.75,
-            height = 0.40,
-          },
-        },
-        git_branches = {
-          layout_config = {
-            horizontal = {
-              prompt_position = "top",
-              preview_width = 0.55,
-              results_width = 0.8,
-            },
-            vertical = {
-              mirror = false,
-            },
-            width = 0.75,
-            height = 0.40,
-          },
-        },
         man_pages = {
           previewer = false,
-          layout_config = {
-            horizontal = {
-              prompt_position = "top",
-              preview_width = 0.55,
-              results_width = 0.8,
-            },
-            vertical = {
-              mirror = false,
-            },
-            width = 0.75,
-            height = 0.40,
+          help_tags = {
+            previewer = false,
           },
-        },
-        help_tags = {
-          previewer = false,
         },
       },
     })

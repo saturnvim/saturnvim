@@ -24,7 +24,7 @@ require("core.config.mappings")
 
 local lazy = require("lazy")
 
-local config_directories = { "lsp", "theme", "nav", "ui", "utils", "custom" }
+local config_directories = { "lsp", "nav", "ui", "utils", "custom" }
 
 local function getConfigFiles()
   local files = {}
