@@ -20,7 +20,7 @@ vim.opt.expandtab = true
 vim.opt.laststatus = 3
 
 require("core.config.aliases")
-require("core.config.aliases")
+require("core.config.mappings")
 
 local lazy = require("lazy")
 
