@@ -40,7 +40,9 @@ return {
             },
           },
         },
-        lualine_y = {},
+        lualine_y = {
+          "filesize",
+        },
         lualine_z = {
           "progress",
         },
