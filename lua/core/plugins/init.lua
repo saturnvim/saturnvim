@@ -1,39 +1,14 @@
 return {
   {
-    "hrsh7th/cmp-nvim-lsp",
-  },
-  {
-    "hrsh7th/cmp-buffer",
-  },
-  {
-    "hrsh7th/cmp-path",
-  },
-  {
-    "hrsh7th/cmp-cmdline",
-  },
-  {
-    "hrsh7th/cmp-vsnip",
-  },
-  {
-    "hrsh7th/vim-vsnip",
-  },
-  {
-    "hrsh7th/cmp-cmdline",
-  },
-  {
-    "hrsh7th/cmp-vsnip",
-  },
-  {
-    "hrsh7th/vim-vsnip",
-  },
-  {
-    "hrsh7th/cmp-cmdline",
-  },
-  {
-    "hrsh7th/cmp-vsnip",
-  },
-  {
-    "hrsh7th/vim-vsnip",
+    "hrsh7th/nvim-cmp",
+    event = "InsertEnter",
+    dependencies = {
+      "hrsh7th/cmp-nvim-lsp",
+      "hrsh7th/cmp-buffer",
+      "hrsh7th/cmp-path",
+      "hrsh7th/cmp-vsnip",
+      "hrsh7th/vim-vsnip",
+    },
   },
   {
     "onsails/lspkind.nvim",
@@ -43,21 +18,22 @@ return {
   },
   {
     "folke/which-key.nvim",
-    config = function()
-      require("which-key").setup({})
+    event = "VeryLazy",
+    init = function()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
     end,
+    opts = {}
   },
   {
     "m4xshen/autoclose.nvim",
-    init = function()
-      require("autoclose").setup({})
-    end,
+    event = "VeryLazy",
+    opts = {}
   },
   {
     "windwp/nvim-ts-autotag",
-    init = function()
-      require("nvim-ts-autotag").setup({})
-    end,
+    event = "VeryLazy",
+    opts = {}
   },
   {
     "lukas-reineke/indent-blankline.nvim",
@@ -71,13 +47,11 @@ return {
   },
   {
     "utilyre/barbecue.nvim",
+    event = "VeryLazy",
     dependencies = {
       "SmiteshP/nvim-navic",
       "nvim-tree/nvim-web-devicons",
     },
-    config = function()
-      require("barbecue").setup()
-      require("barbecue.ui").update()
-    end,
+    opts = {}
   },
 }

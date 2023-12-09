@@ -102,6 +102,11 @@ return {
           icon = "",
           color = "#ea3335",
           name = "Rollup"
+        },
+        [".babelrc"] = {
+          icon = "",
+          color = "#f5db58",
+          name = "Babel"
         }
       },
       override_by_extension = {
@@ -154,6 +159,16 @@ return {
           icon = "",
           color = "#0060aa",
           name = "exe"
+        },
+        ["deb"] = {
+          icon = "󰣚",
+          color = "#a80030",
+          name = "deb"
+        },
+        ["apk"] = {
+          icon = "󰀲",
+          color = "#2d9944",
+          name = "android"
         }
       },
     })
