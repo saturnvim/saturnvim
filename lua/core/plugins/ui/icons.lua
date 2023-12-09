@@ -98,6 +98,11 @@ return {
           color = "#d63a2f",
           name = "robots.txt"
         },
+        ["rollup.config.js"] = {
+          icon = "",
+          color = "#ea3335",
+          name = "Rollup"
+        }
       },
       override_by_extension = {
         ["ts"] = {
