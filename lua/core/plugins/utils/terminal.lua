@@ -6,7 +6,7 @@ return {
   end,
   keys = {
     {
-      "<leader>ot",
+      "<leader>st",
       "<cmd>ToggleTerm<CR>",
       desc = "Open a new terminal",
     },

@@ -63,6 +63,21 @@ return {
       desc = "Fuzzily search in current buffer",
     },
     {
+      "<leader>ff",
+      "<cmd>lua require('telescope.builtin').find_files()<cr>",
+      desc = "Find files",
+    },
+    {
+      "<leader>fb",
+      "<cmd>lua require('telescope.builtin').buffers()<cr>",
+      desc = "Find buffer",
+    },
+    {
+      "<leader>fs",
+      "<cmd>lua require('telescope.builtin').current_buffer_fuzzy_find(require('telescope.themes').get_dropdown({ winblend = 10, previewer = false }))<cr>",
+      desc = "Find buffer",
+    },
+    {
       "<leader>al",
       "<cmd>Telescope filetypes<CR>",
       desc = "Change the current buffer language",
@@ -88,12 +103,12 @@ return {
       desc = "View current git repository files",
     },
     {
-      "<leader>um",
+      "<leader>sm",
       "<cmd>Telescope man_pages<CR>",
       desc = "Open a manual (man)",
     },
     {
-      "<leader>h",
+      "<leader>sh",
       "<cmd>Telescope help_tags<CR>",
       desc = "Get help!",
     },
