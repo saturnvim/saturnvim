@@ -16,6 +16,16 @@ git clone https://github.com/saturnvim/saturnvim ~/.config/nvim && nvim
 - Buffer Management
 - File Tree
 - In-editor terminal
+- Extensibility
+
+### Extensibility
+One of the main points of saturnvim is its simple extinsibility. Saturnvim can be extended manually by adding plugins or modifying the configuration or by relying on the plugin manager to add packages already preconfigured to work with saturnvim.
+
+```bash
+:PluginMangerAdd <package>
+```
+
+Plugins can be part of the saturn vim registry ([here](https://github.com/saturnvim/plugins)) or be created directly by package creators
 
 ### Bugs? Let us know!
 Feel free to open an issues to report a bug you have encountered, please be clear!
