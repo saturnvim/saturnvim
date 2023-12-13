@@ -1,13 +1,8 @@
 return {
-  {
-    "lewis6991/gitsigns.nvim",
-    config = function()
-      require("gitsigns").setup({})
+  "lewis6991/gitsigns.nvim",
+  config = function()
+    require("gitsigns").setup({})
 
-      vim.cmd("Gitsigns toggle_current_line_blame")
-    end,
-  },
-  {
-    "tpope/vim-fugitive"
-  }
+    vim.cmd("Gitsigns toggle_current_line_blame")
+  end,
 }

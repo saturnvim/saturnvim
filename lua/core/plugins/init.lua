@@ -26,8 +26,8 @@ return {
     opts = {}
   },
   {
-    "m4xshen/autoclose.nvim",
-    event = "VeryLazy",
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
     opts = {}
   },
   {
